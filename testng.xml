@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="parallel">
-            <test name="Emulator">
+            <test name="Emulator" parallel="methods" thread-count="2">
              <parameter name="deviceName" value="Mayank Maurya" />
              <parameter name="udid" value="JCAAGF047815M9G" />
              <parameter name="platformVersion" value="9.0" />
