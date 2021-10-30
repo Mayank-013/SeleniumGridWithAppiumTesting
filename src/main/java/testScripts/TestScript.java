@@ -19,16 +19,7 @@ public class TestScript {
 	@Test
 	public void setup() throws Exception {
 		
-		Runtime runtime = Runtime.getRuntime();
-		    try {
-		        runtime.exec("cmd.exe /c start cmd.exe /k \"appium --address 0.0.0.0 --bootstrap-port 4724 --session-override --nodeconfig C:\\Selenium\\node1.json --port 4000");
-		        Thread.sleep(10000);
-		        runtime.exec("cmd.exe /c start cmd.exe /k \"appium --address 0.0.0.0 --bootstrap-port 4725 --session-override --nodeconfig C:\\Selenium\\node2.json --port 4001");
-		        Thread.sleep(10000);
-		    } 
-		    catch (IOException | InterruptedException e) {
-		        e.printStackTrace();
-		    }
+		
 		
 		
 		AppiumDriver<MobileElement> driver ;
