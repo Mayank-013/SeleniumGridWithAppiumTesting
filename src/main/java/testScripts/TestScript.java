@@ -25,8 +25,9 @@ public class TestScript {
 		AppiumDriver<MobileElement> driver ;
 		
 		DesiredCapabilities d = new DesiredCapabilities();
-	
+		
 		d.setCapability("deviceName", "Emulator1");
+		d.setCapability("automationName", "UiAutomator2");
 		d.setCapability("browserName","");
 		d.setCapability("udid", "emulator-5554");
 		d.setCapability("platformName", "Android");
@@ -58,6 +59,7 @@ public class TestScript {
 				DesiredCapabilities d = new DesiredCapabilities();
 			
 				d.setCapability("deviceName", "Emulator2");
+				d.setCapability("automationName", "UiAutomator2");
 				d.setCapability("browserName","");
 				d.setCapability("udid", "emulator-5556");
 				d.setCapability("platformName", "Android");
