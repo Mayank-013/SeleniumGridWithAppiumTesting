@@ -26,7 +26,7 @@ public class TestScript {
 		
 		DesiredCapabilities d = new DesiredCapabilities();
 	
-		d.setCapability("deviceName", "Emulator");
+		d.setCapability("deviceName", "Node1");
 		d.setCapability("udid", "emulator-5554");
 		d.setCapability("platformName", "Android");
 		d.setCapability("platformVersion", "9.0");
@@ -56,7 +56,7 @@ public class TestScript {
 				
 				DesiredCapabilities d = new DesiredCapabilities();
 			
-				d.setCapability("deviceName", "Emulator2");
+				d.setCapability("deviceName", "Node2");
 				d.setCapability("udid", "emulator-5556");
 				d.setCapability("platformName", "Android");
 				d.setCapability("platformVersion", "9.0");
